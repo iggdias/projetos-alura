@@ -7,7 +7,7 @@ import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 
 //import br.com.bytebank.banco.modelo.*;
 
-public class TesteContas {
+public class TesteObject {
 
 	public static void main(String[] args) throws SaldoInsuficienteException{
 					
