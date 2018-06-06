@@ -32,7 +32,7 @@ public abstract class Conta {
     public abstract void deposita(double valor);
 
     /**
-     * 
+     * O valor precisa ser maior que o saldo
      * @param valor
      * @throws SaldoInsuficienteException
      */
@@ -88,6 +88,11 @@ public abstract class Conta {
 
     public static int getTotal(){
         return Conta.total;
+    }
+    
+    @Override
+    public String toString() {
+    	return "Numero: " + this.numero + ", Agencia: " + this.agencia;
     }
 
 }
