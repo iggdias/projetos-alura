@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test;
+package br.com.bytebank.banco.test.util;
 
 import br.com.bytebank.banco.modelo.CalculadorDeImposto;
 import br.com.bytebank.banco.modelo.ContaCorrente;

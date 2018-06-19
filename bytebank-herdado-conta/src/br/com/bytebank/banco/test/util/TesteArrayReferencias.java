@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test;
+package br.com.bytebank.banco.test.util;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -20,7 +20,7 @@ public class TesteArrayReferencias {
         System.out.println( contas[1].getNumero()  );
 
         ContaCorrente ref = (ContaCorrente) contas[0];
-        ContaPoupanca outraRef = (ContaCorrente) contas[1];
+        ContaPoupanca outraRef = (ContaPoupanca) contas[1];
         System.out.println(cc2.getNumero());
         System.out.println(ref.getNumero());
 

@@ -11,6 +11,13 @@ public class Cliente {
     private String cpf;
     private String profissao;
 
+    public Cliente() {}
+    
+    public Cliente(String nome, String cpf) {
+    	this.nome = nome;
+    	this.cpf = cpf;
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -30,4 +37,9 @@ public class Cliente {
         this.profissao = profissao;
     }
 
+    @Override
+    public String toString() {
+    	return "Nome: " + this.nome + ", CPF: " + this.cpf;
+    }
+    
 }
