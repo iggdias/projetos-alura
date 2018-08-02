@@ -20,7 +20,7 @@ public class TesteEscrita {
 		
 		bw.write("Igor");
 		bw.newLine();
-		bw.newLine();
+//		bw.newLine();
 		bw.write("Dias");
 		
 		bw.close();
